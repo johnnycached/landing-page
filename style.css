@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700');
+
 * {
   box-sizing: border-box;
-  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .cards img {
-  max-width: 100px;
+  max-width: 200px;
 }
 
 .section-1 img {
@@ -61,7 +65,7 @@ ul {
 
 .content h1 {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bold;
   color: #f9faf8;
   line-height: 1.25;
   margin-bottom: 20px;
@@ -69,7 +73,6 @@ ul {
 
 .content h2 {
   font-size: 18px;
-  font-weight: lighter;
   color: #e5e7eb;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -82,4 +85,28 @@ ul {
   padding: 5px 25px;
   border: none;
   border-radius: 5px;
+}
+
+.section-2 h1 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cards {
+  display: flex;
+  margin: 50px 100px;
+  margin-bottom: 100px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
