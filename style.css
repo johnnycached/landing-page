@@ -9,12 +9,15 @@
   font-weight: normal;
 }
 
-.cards img {
-  max-width: 200px;
-}
-
 .section-1 img {
   max-width: 600px;
+  border-radius: 15px;
+}
+
+.cards img {
+  max-width: 200px;
+  border-radius: 15px;
+  border: 5px solid #3882f6;
 }
 
 a {
@@ -32,12 +35,17 @@ ul {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 .navbar,
 .section-1,
 .footer {
   background-color: #1F2937;
+}
+
+.section-3 {
+  background-color: #e5e7eb;
 }
 
 .header-logo {
@@ -54,7 +62,7 @@ ul {
 }
 
 .section-1 .container {
-  height: 575px;
+  height: 560px;
   display: flex;
   align-items: center;
 }
@@ -87,6 +95,10 @@ ul {
   border-radius: 5px;
 }
 
+.section-2 {
+  height: 500px;
+}
+
 .section-2 h1 {
   font-size: 36px;
   color: #1F2937;
@@ -99,7 +111,11 @@ ul {
 .cards {
   display: flex;
   margin: 50px 100px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
+}
+
+.cards h2 {
+  margin: 10px;
 }
 
 .card-1,
@@ -109,4 +125,27 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.section-3 .container {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+}
+
+.quote h1 {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  margin: 8px 0px;
+}
+
+.quote h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
 }
