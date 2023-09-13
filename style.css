@@ -44,6 +44,11 @@ ul {
   background-color: #1F2937;
 }
 
+.section-2,
+.section-4 {
+  background-color: white;
+}
+
 .section-3 {
   background-color: #e5e7eb;
 }
@@ -58,7 +63,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 75px;
 }
 
 .section-1 .container {
@@ -105,13 +110,12 @@ ul {
   font-weight: bold;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .cards {
   display: flex;
-  margin: 50px 100px;
-  margin-bottom: 150px;
+  margin: 50px 80px;
 }
 
 .cards h2 {
@@ -197,9 +201,9 @@ ul {
 }
 
 .footer .container h1 {
-  height: 100px;
+  height: 75px;
   color: #e5e7eb;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
