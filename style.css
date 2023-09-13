@@ -32,6 +32,10 @@ ul {
   list-style-type: none;
 }
 
+.nav a:hover {
+  color: #3882f6;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -98,6 +102,10 @@ ul {
   padding: 5px 25px;
   border: none;
   border-radius: 5px;
+}
+
+.content button:hover {
+  background-color: #1169f5;
 }
 
 .section-2 .container {
@@ -192,12 +200,19 @@ ul {
 
 .engagement button {
   background-color: #3882f6;
-  color: #f9faf8;
-  font-size: 18px;
-  font-weight: bold;
   border: 2px solid #f9faf8;
   border-radius: 10px;
   padding: 5px 35px;
+}
+
+.engagement button:hover {
+  background-color: #1169f5;
+}
+
+.engagement a {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .footer .container h1 {
